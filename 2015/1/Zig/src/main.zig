@@ -2,7 +2,7 @@ const std = @import("std");
 const Allocator = std.mem.Allocator;
 const GeneralPurposeAllocator = std.heap.GeneralPurposeAllocator;
 
-pub fn calc_floor(content: []const u8) isize {
+pub fn calcFloor(content: []const u8) isize {
     var floor: isize = 0;
     for (content) |char| {
         if (char == '(') {
@@ -14,7 +14,7 @@ pub fn calc_floor(content: []const u8) isize {
     return floor;
 }
 
-pub fn calc_basement_entering_pos(content: []const u8) ?usize {
+pub fn calcBasementEnteringPos(content: []const u8) ?usize {
     var floor: isize = 0;
     var pos: ?usize = null;
     for (content, 0..) |char, index| {
@@ -31,9 +31,9 @@ pub fn calc_basement_entering_pos(content: []const u8) ?usize {
     return pos;
 }
 
-pub fn readFileContents(allocator: *std.mem.Allocator, inputPath: []const u8) ![]u8 {
+pub fn readFileContents(allocator: *std.mem.Allocator, input_path: []const u8) ![]u8 {
     // Open the file for reading
-    const file = try std.fs.cwd().openFile(inputPath, .{ .mode = .read_only });
+    const file = try std.fs.cwd().openFile(input_path, .{ .mode = .read_only });
     defer file.close();
 
     // Determine the size of the file
@@ -63,21 +63,21 @@ pub fn main() !void {
     const content_buffer = try readFileContents(&allocator, filepath);
     defer allocator.free(content_buffer);
 
-    const floor = calc_floor(content_buffer);
+    const floor = calcFloor(content_buffer);
     std.debug.print("The floor Santa needs to reach is: {}\n", .{floor});
 
-    const basement_pos: ?usize = calc_basement_entering_pos(content_buffer);
+    const basement_pos: ?usize = calcBasementEnteringPos(content_buffer);
     std.debug.print("The position of the character to enter the basement is: {?}\n", .{basement_pos});
 }
 
 test "first challenge" {
-    const testContent = "))(((((";
-    const floor = calc_floor(testContent);
+    const test_content = "))(((((";
+    const floor = calcFloor(test_content);
     std.debug.print("The floor Santa needs to reach is: {}\n", .{floor});
 }
 
 test "second challenge" {
-    const testContent = "()())";
-    const basement_pos: ?usize = calc_basement_entering_pos(testContent);
+    const test_content = "()())";
+    const basement_pos: ?usize = calcBasementEnteringPos(test_content);
     std.debug.print("The position of the character to enter the basement is: {?}\n", .{basement_pos});
 }

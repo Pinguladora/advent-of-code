@@ -21,7 +21,6 @@ function readFileAndCalc($filePath, $func)
     $amountNeeded = 0;
     while (($line = fgets($fileHandler)) !== false) {
         list($length, $width, $height) = parseLine($line);
-        // $amountNeeded += calcPresentWrapperPaper($length, $width, $height);
         $amountNeeded += $func($length, $width, $height);
     }
     // Close the file handler

@@ -10,7 +10,7 @@ class Program
     static int FirstChallenge(string instructions, Dictionary<char, (int, int)> movesMap)
     {
         int x = 0, y = 0;
-        HashSet<(int, int)> houseVisited = new HashSet<(int, int)> { (0, 0) };
+        HashSet<(int, int)> houseVisited = new() { (0, 0) };
         foreach (char direction in instructions)
         {
             (int, int) move = movesMap[direction];
@@ -24,9 +24,9 @@ class Program
     static int SecondChallenge(string instructions, Dictionary<char, (int, int)> movesMap)
     {
         int sx = 0, sy = 0;
-        HashSet<(int, int)> houseVisitedBySanta = new HashSet<(int, int)> { (0, 0) };
+        HashSet<(int, int)> houseVisitedBySanta = new() { (0, 0) };
         int rx = 0, ry = 0;
-        HashSet<(int, int)> houseVisitedByRoboSanta = new HashSet<(int, int)> { (0, 0) };
+        HashSet<(int, int)> houseVisitedByRoboSanta = new() { (0, 0) };
         for (int i = 0; i < instructions.Length; i++)
         {
             (int, int) move = movesMap[instructions[i]];
@@ -51,9 +51,9 @@ class Program
     {
         try
         {
-            string instructions = File.ReadAllText("input.txt");
+            string instructions = File.ReadAllText("../input.txt");
 
-            Dictionary<char, (int, int)> movesMap = new Dictionary<char, (int, int)>
+            Dictionary<char, (int, int)> movesMap = new()
             {
                 {'^', (0, 1)},
                 {'v', (0, -1)},
