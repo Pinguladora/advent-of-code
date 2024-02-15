@@ -1,2 +1,4 @@
 # Go workspace file
 go.work
+
+.ruff_cache
