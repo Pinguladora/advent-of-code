@@ -21,15 +21,15 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 12
 - [ ] 11
 - [ ] 10
-- [ ] 09
-- [ ] 08
-- [ ] 07
-- [ ] 06
+- [x] 09
+- [x] 08
+- [x] 07
+- [x] 06
 - [ ] 05
-- [ ] 04
-- [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 04
+- [x] 03
+- [x] 02
+- [x] 01
 
 
 ### **2022**
@@ -50,14 +50,14 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 11
 - [ ] 10
 - [ ] 09
-- [ ] 08
+- [x] 08
 - [ ] 07
-- [ ] 06
+- [x] 06
 - [ ] 05
-- [ ] 04
-- [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 04
+- [x] 03
+- [x] 02
+- [x] 01
 
 
 ### **2021**
@@ -79,13 +79,13 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 10
 - [ ] 09
 - [ ] 08
-- [ ] 07
+- [x] 07
 - [ ] 06
 - [ ] 05
 - [ ] 04
 - [ ] 03
-- [ ] 02
-- [ ] 01 
+- [x] 02
+- [x] 01 
 
 
 ### **2020**
@@ -154,22 +154,22 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 19
 - [ ] 18
 - [ ] 17
-- [ ] 16
-- [ ] 15
+- [x] 16
+- [x] 15
 - [ ] 14
 - [ ] 13
 - [ ] 12
 - [ ] 11
 - [ ] 10
 - [ ] 09
-- [ ] 08
+- [x] 08
 - [ ] 07
-- [ ] 06
-- [ ] 05
-- [ ] 04
+- [x] 06
+- [x] 05
+- [x] 04
 - [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 02
+- [x] 01
 
 
 ### **2017**
@@ -182,22 +182,22 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 19
 - [ ] 18
 - [ ] 17
-- [ ] 16
-- [ ] 15
+- [x] 16
+- [x] 15
 - [ ] 14
 - [ ] 13
 - [ ] 12
 - [ ] 11
 - [ ] 10
 - [ ] 09
-- [ ] 08
+- [x] 08
 - [ ] 07
-- [ ] 06
-- [ ] 05
-- [ ] 04
+- [x] 06
+- [x] 05
+- [x] 04
 - [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 02
+- [x] 01
 
 
 ### **2016**
@@ -206,31 +206,31 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 23
 - [ ] 22
 - [ ] 21
-- [ ] 20
+- [x] 20
 - [ ] 19
 - [ ] 18
 - [ ] 17
-- [ ] 16
-- [ ] 15
-- [ ] 14
+- [x] 16
+- [x] 15
+- [x] 14
 - [ ] 13
-- [ ] 12
+- [x] 12
 - [ ] 11
 - [ ] 10
 - [ ] 09
 - [ ] 08
-- [ ] 07
-- [ ] 06
-- [ ] 05
-- [ ] 04
-- [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 07
+- [x] 06
+- [x] 05
+- [x] 04
+- [x] 03
+- [x] 02
+- [x] 01
 
 ### **2015**
 - [ ] 25
 - [ ] 24
-- [ ] 23
+- [x] 23
 - [ ] 22
 - [ ] 21
 - [ ] 20
@@ -245,11 +245,11 @@ This repo is my best attempt of beating all challenges of advent of code so far.
 - [ ] 11
 - [ ] 10
 - [ ] 09
-- [ ] 08
-- [ ] 07
-- [ ] 06
+- [x] 08
+- [x] 07
+- [x] 06
 - [ ] 05
-- [ ] 04
-- [ ] 03
-- [ ] 02
-- [ ] 01
+- [x] 04
+- [x] 03
+- [x] 02
+- [x] 01
